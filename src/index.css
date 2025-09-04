@@ -1,4 +1,10 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can go here */
+
+.header {
+  background-image: url("/public/assets/porsche.jpg");
 }
